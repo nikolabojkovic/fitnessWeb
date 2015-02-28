@@ -1,0 +1,35 @@
+body{
+	background-color: #1c1c1c;
+	color: #909090;
+	font-family: Verdana, sans-serif;
+	background: url("../img/background.png") repeat left top;
+}
+h1,h2,h3,h4,h5,h6{
+	color: white;
+}
+article{
+	margin: 0% 13%;
+}
+.carousel-indicators{
+	position: relative;
+	bottom: 0px;
+}
+.carousel-indicators .active{
+	width: 10px;
+	height: 10px;
+	margin-bottom: 1px;
+}
+.carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+    text-indent: -999px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #433333;
+    border: none;
+}
+.slider{
+	margin: auto;
+}

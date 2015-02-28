@@ -1,5 +1,4 @@
-
-	footer
-	
+	footer	
+		</article>
 	</body>
 </html>

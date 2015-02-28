@@ -1,3 +1,27 @@
+
+/***************header style************************/
 header {
-	color:red;
+
+}
+a:focus{outline: none;}
+nav {
+	text-align:right;
+	display: inline-block;
+	width:70%;
+}
+nav ul { 
+	margin: 0; padding:0;
+	display:inline;
+}
+nav ul li { 
+	display: inline; 
+	margin:5px 20px;
+	}
+nav ul li a{ font-weight: bold; text-decoration: none; color:white;}
+nav ul li a:hover, nav ul li a:active,nav ul li a:focus{
+	color:#1292bc;
+	text-decoration:none;
+}
+#logo{
+	vertical-align: middle;
 }
