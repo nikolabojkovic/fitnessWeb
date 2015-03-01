@@ -31,5 +31,56 @@ article{
     border: none;
 }
 .slider{
-	margin: auto;
+	position:relative;
+	margin:auto;
+}
+.left{
+	position: absolute;
+	left: -2%;
+	top: 45%;
+	color: #909090;
+}
+.right{
+	position: absolute;
+	right: -2%;
+	top: 45%;
+	color: #909090;
+}
+.icon-color{
+	color: #2b2b2b;
+}
+.project-item{
+	width: 290px;
+	height: 290px;
+	background-color:white;
+	display:inline-block
+}
+.project-caption{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	display:inline-block;
+	width: 290px;
+}
+.project-caption-text{
+	margin-left: 8px;
+}
+.pre-footer{
+	background-color:white;
+	display:inline-block;
+	height: 215px;
+	width: 290px;
+}
+.div-separator{
+	width: 20px;
+	display: inline-block;
+}
+hr{
+	border-color: #252525;
+}
+.footer-icons{
+	float:right;
+}
+.footer-text{
+	float:left;
+	margin-bottom: 40px;
 }
