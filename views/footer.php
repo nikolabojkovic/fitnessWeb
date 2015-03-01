@@ -2,15 +2,15 @@
 				<hr />
 			</section>
 			<section>
-				<div class="footer-text"> COPYRIGHT &copy 2015 - NIKOLA BOJKOVIC. ALL RIGHTS RESERVED</div>
+				<div class="footer-text"> COPYRIGHT &copy 2015 - <label>NIKOLA BOJKOVIC</label>. ALL RIGHTS RESERVED</div>
 				<div class="footer-icons">
-					<i class="fa fa-rss icon-color"></i>
+					<a href="#"><i class="fa fa-facebook-official fa-2x icon-color-facebook"></i></a>
 					<div class="div-separator"></div>
-					<i class="fa fa-rss icon-color"></i>
+					<a href="#"><i class="fa fa-linkedin-square fa-2x icon-color-linkedin"></i></a>
 					<div class="div-separator"></div>
-					<i class="fa fa-rss icon-color"></i>
+					<a href="#"><i class="fa fa-pinterest-square fa-2x icon-color-pinterest"></i></a>
 					<div class="div-separator"></div>
-					<i class="fa fa-rss icon-color"></i>
+					<a href="#"><i class="fa fa-twitter-square fa-2x icon-color-tweeter"></i></a>
 				</div>
 			</section>
 		</article>

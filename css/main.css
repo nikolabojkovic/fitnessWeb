@@ -46,14 +46,42 @@ article{
 	top: 45%;
 	color: #909090;
 }
-.icon-color{
-	color: #2b2b2b;
+.icon-color-tweeter, .icon-color-facebook, .icon-color-linkedin, .icon-color-pinterest{
+	color: #2e2e2e;
+	vertical-align: middle;
+}
+.icon-color-tweeter:hover{
+	color: #00aced;
+}
+.icon-color-facebook:hover{
+	color: #3b5998;
+}
+.icon-color-linkedin:hover{
+	color: #4875B4;
+}
+.icon-color-pinterest:hover{
+	color: #cb2027;
 }
 .project-item{
 	width: 290px;
 	height: 290px;
-	background-color:white;
 	display:inline-block
+}
+.project-title{
+	height: 79px;
+	background-color: rgba(16, 16, 16, 0.8);
+}
+.project-title h4, .project-title p{
+	margin: 0px 0px 0px 0px;
+	padding-left: 30px;
+}
+.project-item hr{
+	 border-color: #909090;
+	 margin: 0px;
+	 border-width: 2px 0px 0px;
+}
+.project-title h4{
+	padding-top: 20px;
 }
 .project-caption{
 	margin-top: 15px;
@@ -65,10 +93,25 @@ article{
 	margin-left: 8px;
 }
 .pre-footer{
-	background-color:white;
-	display:inline-block;
+	background-color: rgba(16,16,16,0.8);
+	display: inline-block;
 	height: 215px;
 	width: 290px;
+	font-size: 11px;
+}
+.pre-footer h4, h5{
+	padding: 20px 20px 0px;
+	margin: 0px;
+}
+.pre-footer p{
+	padding: 20px;
+	margin: 0px;
+}
+.pre-footer hr{
+	margin: 0px;
+	border-color: #909090;
+	width: 85%;
+	margin-left: 20px;
 }
 .div-separator{
 	width: 20px;
@@ -79,8 +122,43 @@ hr{
 }
 .footer-icons{
 	float:right;
+	position: relative;
+	top: -3px;
 }
 .footer-text{
 	float:left;
 	margin-bottom: 40px;
+}
+label{
+	font-weight: bold;
+	color: white;
+	margin: 0px;
+}
+.label-blue{
+	color:#77dafa;
+}
+.my-button-submit{
+	padding: 10px 20px;
+	background-color: #1292bc;
+	color: white;
+	border: none;
+	position: relative;
+	left: -3px;
+}
+.my-txb-email{
+	padding: 9px 20px;
+	width: 65%;
+	margin-right: 0px;
+}
+.carousel-caption h1, h3{
+	margin: 0px;
+	color: #909090;
+	background-color: rgba(0,0,0,0.8);
+	width: 100%;
+}
+.carousel-caption h1{
+	padding-top: 10px;
+}
+.carousel-caption h3{
+	padding-bottom: 10px;
 }
