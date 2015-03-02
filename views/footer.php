@@ -13,6 +13,7 @@
 					<a href="#"><i class="fa fa-twitter-square fa-2x icon-color-tweeter"></i></a>
 				</div>
 			</section>
+			<div id="top-page"><span class="glyphicon glyphicon-chevron-up"></span></div>
 		</article>
 	</body>
 </html>

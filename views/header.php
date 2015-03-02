@@ -10,6 +10,7 @@
 		<link href="<?php echo(substr(dirname($_SERVER['REQUEST_URI']).'css/main.css',1)); ?>" rel="stylesheet" type="text/css">
 		<script src="<?php echo(substr(dirname($_SERVER['REQUEST_URI']).'js/jquery-1.11.1.min.js',1)); ?>"></script>	
 		<script src="<?php echo(substr(dirname($_SERVER['REQUEST_URI']).'js/glm-ajax.js',1)); ?>"></script>	
+		<script src="<?php echo(substr(dirname($_SERVER['REQUEST_URI']).'js/main.js',1)); ?>"></script>
 		<script src="<?php echo(substr(dirname($_SERVER['REQUEST_URI']).'bootstrap-3.1.1-dist/js/bootstrap.min.js',1)); ?>"></script>		
 	</head>
 	<body>
@@ -20,10 +21,10 @@
 				</a>
 				<nav>					
 					<ul>
-						<li><a href="#">FEATURES</a></li>
-						<li><a href="#">BLOG</a></li>
-						<li><a href="#">SUPPORT</a></li>
-						<li><a href="#">CONTACT</a></li>
+						<a href="#"><li>FEATURES</li></a>
+						<a href="#"><li>BLOG</li></a>
+						<a href="#"><li>SUPPORT</li></a>
+						<a href="#"><li>CONTACT</li></a>
 					</ul>
 				</nav>
 			</header>

@@ -129,6 +129,17 @@ hr{
 	float:left;
 	margin-bottom: 40px;
 }
+#top-page{
+	width: 35px;
+	height: 35px;
+	position: fixed;
+	bottom: 10%;
+	right: 8%;
+	background-color: rgba(0,0,0,0.8);
+	text-align: center;
+	padding-top: 7px;
+	cursor: pointer;
+}
 label{
 	font-weight: bold;
 	color: white;
@@ -145,20 +156,27 @@ label{
 	position: relative;
 	left: -3px;
 }
+.my-button-submit:hover{
+	background-color: #22A2Cc;
+}
 .my-txb-email{
 	padding: 9px 20px;
 	width: 65%;
 	margin-right: 0px;
 }
+.carousel-caption{
+	background-color: rgba(0,0,0,0.8);
+	//width: 100%; 
+	border: 1px solid black;
+	border-radius: 10px;
+}
 .carousel-caption h1, h3{
 	margin: 0px;
 	color: #909090;
-	background-color: rgba(0,0,0,0.8);
-	width: 100%;
 }
-.carousel-caption h1{
-	padding-top: 10px;
+.carousel-caption  h1{
+	padding: 5px 0px ;
 }
-.carousel-caption h3{
-	padding-bottom: 10px;
+.carousel-caption  h3{
+	padding-bottom: 5px;
 }

@@ -12,28 +12,28 @@
 		  <img src="img/slider/slider5.png" alt="..." class="slider">
 		  <div class="carousel-caption">
 			<h1>Fitness World</h1>
-			<h3>Welcome to the world of fitness.</h3><h3> This text can be modified.</h3>
+			<h3>Welcome to the world of fitness.<br /> This text can be modified.</h3>
 		  </div>
 		</div>
 		<div class="item">
 		  <img src="img/slider/slider2.png" alt="..." class="slider">
 		  <div class="carousel-caption">
 			<h1>Fitness World</h1>
-			<h3>Welcome to the world of fitness.</h3><h3> This text can be modified.</h3>
+			<h3>Welcome to the world of fitness..<br /> This text can be modified.</h3>
 		  </div>
 		</div>
 		  <div class="item">
 		  <img src="img/slider/slider3.png" alt="..." class="slider">
 		  <div class="carousel-caption">
 			<h1>Fitness World</h1>
-			<h3>Welcome to the world of fitness.</h3><h3> This text can be modified.</h3>
+			<h3>Welcome to the world of fitness..<br /> This text can be modified.</h3>
 		  </div>
 		</div>
 		  <div class="item">
 		  <img src="img/slider/slider4.png" alt="..." class="slider">
 		  <div class="carousel-caption">
 		   <h1>Fitness World</h1>
-			<h3>Welcome to the world of fitness.</h3><h3> This text can be modified.</h3>
+			<h3>Welcome to the world of fitness.<br /> This text can be modified.</h3>
 		  </div>
 		</div>
 	  </div>
