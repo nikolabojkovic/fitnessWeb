@@ -16,16 +16,50 @@
 	</head>
 	<body>
 		<article>
-			<header>
-				<a href="<?php echo(substr(dirname($_SERVER['REQUEST_URI']),1)); ?>">
+			<header>					
+					<!-- <ul>
+						<a href="#"><li>FEATURES</li></a>
+						<a href="#"><li>BLOG</li></a>
+						<a href="#"><li>SUPPORT</li></a>
+						<a href="#"><li>CONTACT</li></a>
+					</ul> 
+					<a class="navbar-brand" href="<?php echo(substr(dirname($_SERVER['REQUEST_URI']),1)); ?>">
 						<img id="logo" alt="Fitness Logo" src="<?php echo(substr(dirname($_SERVER['REQUEST_URI']).'img/header/logo.png',1)); ?>" />
-				</a>
-				<nav>					
-					<ul>
-						<a href="#"><li class="spin">FEATURES</li></a>
-						<a href="#"><li class="spin">BLOG</li></a>
-						<a href="#"><li class="spin">SUPPORT</li></a>
-						<a href="#"><li class="spin">CONTACT</li></a>
-					</ul>
-				</nav>
+					</a> -->
+			<nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right">
+              <input type="text" placeholder="Email" class="my-txb-email">
+              <input type="password" placeholder="Password" class="my-txb-email">
+            <button type="submit" class="my-button-submit">Sign in</button>
+          </form>
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li class="dropdown-header">Nav header</li>
+                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </nav>
 			</header>

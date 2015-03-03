@@ -4,12 +4,14 @@ header {
 
 }
 a:focus{outline: none;}
+/*
 nav {
 	text-align:right;
 	display: inline-block;
 	width:70%;
 	position: relative;
-	top: 30px;		
+	top: 30px;	
+	margin-bottom: 20px;
 }
 nav ul { 
 	margin: 0; padding:0;
@@ -23,7 +25,7 @@ nav ul li {
 	border-bottom: 1px solid #909090;
 	float: right;
 	//transform: skewX(20deg);
-	transform: perspective(200px) rotateY(45deg);
+	//transform: perspective(200px) rotateY(45deg);
 	}
 nav ul a{ font-weight: bold; text-decoration: none; color:white;}
 nav ul li:hover, nav ul li:active,nav ul li:focus{
@@ -33,31 +35,10 @@ nav ul li:hover, nav ul li:active,nav ul li:focus{
 nav ul a:hover, nav ul a:active,nav ul a:focus{
 	color: white;
 	text-decoration:none;
-}
+} */
 #logo{
 	vertical-align: middle;
-}
-.spin {
-  cursor: pointer;
-  transform-style: preserve-3d;
-}
-.spin:hover {
-    animation: spin 3s linear infinite;
-	transform: skewX(20deg);
-}
-@keyframes spin {
-  0% {
-    transform: rotateY(0deg);
-  }
-  100% {
-    transform: rotateY(360deg);
-  }
-}
-@-webkit-keyframes spin{
-  0% {
-    transform: rotateY(0deg);
-  }
-  100% {
-    transform: rotateY(360deg);
-  }
-}
+} 
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    color: #FFF;
+    background-color: #1292bc;

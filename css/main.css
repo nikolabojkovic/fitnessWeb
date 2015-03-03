@@ -185,14 +185,45 @@ label{
 	border: none;
 	position: relative;
 	left: -3px;
+	
+	color: rgb(230, 230, 230);
+	//font-size: 21px;
+	//padding: 18px;
+	text-shadow: 0px -1px 0px rgba(30, 30, 30, 0.8);
+	background: rgb(18, 146, 188);
+	background: -moz-linear-gradient(108deg, rgb(18, 146, 188) 36%, rgb(88, 146, 188) 55%);
+	background: -webkit-linear-gradient(108deg, rgb(18, 146, 188) 36%, rgb(88, 146, 188) 55%);
+	background: -o-linear-gradient(108deg, rgb(18, 146, 188) 36%, rgb(88, 146, 188) 55%);
+	background: -ms-linear-gradient(108deg, rgb(18, 146, 188) 36%, rgb(88, 146, 188) 55%);
+	background: linear-gradient(18deg, rgb(18, 146, 188) 36%, rgb(88, 146, 188) 55%);
+	-webkit-box-shadow: 2px 3px 4px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    2px 3px 4px rgba(50, 50, 50, 0.75);
+	box-shadow:         2px 3px 4px rgba(50, 50, 50, 0.75);
+
 }
 .my-button-submit:hover{
-	background-color: #22A2Cc;
+		background: -moz-linear-gradient(108deg, rgb(0, 146, 188) 36%, rgb(68, 146, 188) 55%);
+	background: -webkit-linear-gradient(108deg, rgb(0, 146, 188) 36%, rgb(68, 146, 188) 55%);
+	background: -o-linear-gradient(108deg, rgb(0, 146, 188) 36%, rgb(68, 146, 188) 55%);
+	background: -ms-linear-gradient(108deg, rgb(0, 146, 188) 36%, rgb(68, 146, 188) 55%);
+	background: linear-gradient(18deg, rgb(0, 146, 188) 36%, rgb(68, 146, 188) 55%);
 }
 .my-txb-email{
 	padding: 9px 20px;
-	width: 65%;
+	width: 165px;
 	margin-right: 0px;
+}
+.my-txb-email:focus{
+	box-shadow: 0.3px 0.3px 10px 0.5px #428BCA;
+	animation: color-txb 300ms linear;
+}
+@keyframes color-txb {
+	from {box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);}
+    to { box-shadow: 0.3px 0.3px 10px 0.5px #428BCA;}
+}
+@-webkit-keyframes color-txb {
+	from {box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);}
+    to {box-shadow: 0.3px 0.3px 10px 0.5px #428BCA;}
 }
 .carousel-caption{
 	background-color: rgba(0,0,0,0.8);
@@ -209,4 +240,31 @@ label{
 }
 .carousel-caption  h3{
 	padding-bottom: 5px;
+}
+/* animation */
+.spin {
+  cursor: pointer;
+  transform-style: preserve-3d;
+  transform: perspective(200px) rotateY(45deg);
+  animation: spin 3s linear infinite;
+  //transform: skewX(20deg);	
+}
+.spin:hover {
+    //animation: spin 3s linear infinite;
+}
+@keyframes spin {
+  0% {
+    transform: perspective(200px) rotateY(45deg);
+  }
+  100% {
+    transform: perspective(200px) rotateY(405deg);
+  }
+}
+@-webkit-keyframes spin{
+  0% {
+    transform: perspective(200px) rotateY(45deg);
+  }
+  100% {
+    transform: perspective(200px) rotateY(405deg);
+  }
 }
