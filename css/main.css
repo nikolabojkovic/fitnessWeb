@@ -10,6 +10,9 @@ h1,h2,h3,h4,h5,h6{
 article{
 	margin: 0% 13%;
 }
+a:hover{
+	text-decoration: none;
+}
 .carousel-indicators{
 	position: relative;
 	bottom: 0px;
@@ -80,6 +83,30 @@ article{
 	 margin: 0px;
 	 border-width: 2px 0px 0px;
 }
+.item-hover{
+	background-color: rgba(0,0,0,0);
+	position: absolute;
+	width: 290px;
+	height: 209px;
+	text-align:center;
+	line-height: 15;
+}
+.item-hover:hover{
+	background-color: rgba(0,0,0,0.8);
+	cursor: pointer;
+	animation: color 300ms linear;
+}
+@keyframes color {
+	from {background: rgba(0,0,0,0);}
+    to {background: rgba(0,0,0,0.8);}
+}
+@-webkit-keyframes color {
+	from {background: rgba(0,0,0,0);}
+    to {background: rgba(0,0,0,0.8);}
+}
+.item-hide{
+	visibility: hidden;
+}
 .project-title h4{
 	padding-top: 20px;
 }
@@ -133,12 +160,15 @@ hr{
 	width: 35px;
 	height: 35px;
 	position: fixed;
-	bottom: 10%;
+	bottom: 12%;
 	right: 8%;
-	background-color: rgba(0,0,0,0.8);
+	background-color: rgba(0,0,0,0.4);
 	text-align: center;
 	padding-top: 7px;
 	cursor: pointer;
+}
+#top-page:hover{
+	background-color: rgba(0,0,0,0.9);
 }
 label{
 	font-weight: bold;
@@ -166,9 +196,9 @@ label{
 }
 .carousel-caption{
 	background-color: rgba(0,0,0,0.8);
-	//width: 100%; 
-	border: 1px solid black;
-	border-radius: 10px;
+	width: 100%;
+	left: 0%;
+	padding:0px;
 }
 .carousel-caption h1, h3{
 	margin: 0px;

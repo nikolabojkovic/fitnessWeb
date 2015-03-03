@@ -8,6 +8,7 @@
 		<link href="<?php echo(substr(dirname($_SERVER['REQUEST_URI']).'font-awesome-4.3.0/css/font-awesome.min.css',1)); ?>" rel="stylesheet">
 		<link href="<?php echo(substr(dirname($_SERVER['REQUEST_URI']).'css/header.css',1)); ?>" rel="stylesheet" type="text/css">
 		<link href="<?php echo(substr(dirname($_SERVER['REQUEST_URI']).'css/main.css',1)); ?>" rel="stylesheet" type="text/css">
+		<link href="<?php echo(substr(dirname($_SERVER['REQUEST_URI']).'img/fiveicon.png',1)); ?>"  rel="icon" type="image/png" >
 		<script src="<?php echo(substr(dirname($_SERVER['REQUEST_URI']).'js/jquery-1.11.1.min.js',1)); ?>"></script>	
 		<script src="<?php echo(substr(dirname($_SERVER['REQUEST_URI']).'js/glm-ajax.js',1)); ?>"></script>	
 		<script src="<?php echo(substr(dirname($_SERVER['REQUEST_URI']).'js/main.js',1)); ?>"></script>
@@ -21,10 +22,10 @@
 				</a>
 				<nav>					
 					<ul>
-						<a href="#"><li>FEATURES</li></a>
-						<a href="#"><li>BLOG</li></a>
-						<a href="#"><li>SUPPORT</li></a>
-						<a href="#"><li>CONTACT</li></a>
+						<a href="#"><li class="spin">FEATURES</li></a>
+						<a href="#"><li class="spin">BLOG</li></a>
+						<a href="#"><li class="spin">SUPPORT</li></a>
+						<a href="#"><li class="spin">CONTACT</li></a>
 					</ul>
 				</nav>
 			</header>

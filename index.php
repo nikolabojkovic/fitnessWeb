@@ -54,6 +54,7 @@
 </section>
 <section>
 	<div class="project-item">
+		<div class="item-hover"><span class="glyphicon glyphicon-zoom-in item-hide"></span></div>
 		<img src="<?php echo(substr(dirname($_SERVER['REQUEST_URI']).'img/project-item/project-item2.png',1)); ?>" alt="..." />
 		<hr />
 		<div class="project-title">
@@ -63,6 +64,7 @@
 	</div>
 	<div class="div-separator"></div>
 	<div class="project-item">
+		<div class="item-hover"><span class="glyphicon glyphicon-zoom-in item-hide"></span></div>
 		<img src="<?php echo(substr(dirname($_SERVER['REQUEST_URI']).'img/project-item/project-item3.png',1)); ?>" alt="..." />
 		<hr />
 		<div class="project-title">
@@ -72,6 +74,7 @@
 	</div>
 	<div class="div-separator"></div>
 	<div class="project-item">
+		<div class="item-hover"><span class="glyphicon glyphicon-zoom-in item-hide"></span></div>
 		<img src="<?php echo(substr(dirname($_SERVER['REQUEST_URI']).'img/project-item/project-item4.png',1)); ?>" alt="..." />
 		<hr />
 		<div class="project-title">
