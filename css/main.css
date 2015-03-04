@@ -68,7 +68,11 @@ a:hover{
 .project-item{
 	width: 290px;
 	height: 290px;
-	display:inline-block
+	//display:inline-block;
+	margin-bottom: 5px;
+}
+.layout{
+	display: inline-table;
 }
 .project-title{
 	height: 79px;
@@ -113,7 +117,7 @@ a:hover{
 .project-caption{
 	margin-top: 15px;
 	margin-bottom: 15px;
-	display:inline-block;
+	//display:inline-block;
 	width: 290px;
 }
 .project-caption-text{
@@ -125,6 +129,7 @@ a:hover{
 	height: 215px;
 	width: 290px;
 	font-size: 11px;
+	margin-top: 3px;
 }
 .pre-footer h4, h5{
 	padding: 20px 20px 0px;
@@ -154,7 +159,7 @@ hr{
 }
 .footer-text{
 	float:left;
-	margin-bottom: 40px;
+	margin-bottom: 40px;	
 }
 #top-page{
 	width: 35px;
@@ -184,7 +189,8 @@ label{
 	color: white;
 	border: none;
 	position: relative;
-	left: -3px;
+	margin-top: 2px;
+	//left: -3px;
 	
 	color: rgb(230, 230, 230);
 	//font-size: 21px;
@@ -214,16 +220,16 @@ label{
 	margin-right: 0px;
 }
 .my-txb-email:focus{
-	box-shadow: 0.3px 0.3px 10px 0.5px #428BCA;
+	box-shadow: 0.3px 0.3px 4px 1.5px #1292bc;
 	animation: color-txb 300ms linear;
 }
 @keyframes color-txb {
 	from {box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);}
-    to { box-shadow: 0.3px 0.3px 10px 0.5px #428BCA;}
+    to { box-shadow: 0.3px 0.3px 4px 1.5px #1292bc;}
 }
 @-webkit-keyframes color-txb {
 	from {box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);}
-    to {box-shadow: 0.3px 0.3px 10px 0.5px #428BCA;}
+    to {box-shadow: 0.3px 0.3px 4px 1.5px #1292bc;}
 }
 .carousel-caption{
 	background-color: rgba(0,0,0,0.8);

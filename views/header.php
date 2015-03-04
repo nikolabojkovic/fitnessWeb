@@ -9,6 +9,7 @@
 		<link href="<?php echo(substr(dirname($_SERVER['REQUEST_URI']).'css/header.css',1)); ?>" rel="stylesheet" type="text/css">
 		<link href="<?php echo(substr(dirname($_SERVER['REQUEST_URI']).'css/main.css',1)); ?>" rel="stylesheet" type="text/css">
 		<link href="<?php echo(substr(dirname($_SERVER['REQUEST_URI']).'img/fiveicon.png',1)); ?>"  rel="icon" type="image/png" >
+		<link rel="stylesheet" href="<?php echo(substr(dirname($_SERVER['REQUEST_URI']).'css/mobile.css',1)); ?>" />
 		<script src="<?php echo(substr(dirname($_SERVER['REQUEST_URI']).'js/jquery-1.11.1.min.js',1)); ?>"></script>	
 		<script src="<?php echo(substr(dirname($_SERVER['REQUEST_URI']).'js/glm-ajax.js',1)); ?>"></script>	
 		<script src="<?php echo(substr(dirname($_SERVER['REQUEST_URI']).'js/main.js',1)); ?>"></script>
@@ -26,7 +27,7 @@
 					<a class="navbar-brand" href="<?php echo(substr(dirname($_SERVER['REQUEST_URI']),1)); ?>">
 						<img id="logo" alt="Fitness Logo" src="<?php echo(substr(dirname($_SERVER['REQUEST_URI']).'img/header/logo.png',1)); ?>" />
 					</a> -->
-			<nav class="navbar navbar-inverse">
+	  <nav class="navbar navbar-inverse">
         <div class="container-fluid">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -35,6 +36,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
+			<a class="navbar-brand" href="#">FITNESS - HEALTHY LIFE</a>
           </div>
           <div id="navbar" class="navbar-collapse collapse">
           <form class="navbar-form navbar-right">
@@ -42,12 +44,12 @@
               <input type="password" placeholder="Password" class="my-txb-email">
             <button type="submit" class="my-button-submit">Sign in</button>
           </form>
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Contact</a></li>
+            <ul class="nav navbar-nav">			
+              <li class="active"><a href="#">FEATURES</a></li>
+              <li><a href="#">BLOG</a></li>
+              <li><a href="#">CONTACT</a></li>
               <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">SUPPORT <span class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
                   <li><a href="#">Action</a></li>
                   <li><a href="#">Another action</a></li>

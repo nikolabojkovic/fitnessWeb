@@ -1,0 +1,25 @@
+@media (max-width: 767px) {
+	.navbar-toggle, .navbar-brand{
+		display: inline;
+	}
+
+}
+@media (max-width: 660px) {
+	.my-button-submit, .my-txb-email{
+		width:100%;
+	}
+	article{
+	 margin:0px;
+	}
+	.project-item, .pre-footer, .project-caption{
+	 margin-left: 10%;
+	 margin-right: 10%;
+	}
+	.carousel-caption{
+		display:none;
+	}
+	.footer-text, .footer-icons{
+		margin-left: 2%;
+		margin-right: 2%;
+	}
+}

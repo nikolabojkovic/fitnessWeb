@@ -42,3 +42,10 @@ nav ul a:hover, nav ul a:active,nav ul a:focus{
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
     color: #FFF;
     background-color: #1292bc;
+}
+.navbar-toggle{
+	display: none;
+}
+.navbar-brand{
+	display:none;
+}
