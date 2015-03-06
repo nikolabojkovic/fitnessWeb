@@ -1,4 +1,5 @@
-<?php require_once (dirname($_SERVER['REQUEST_URI']).'views/header.php');?>
+<?php //define('APP_BASE_URL','http://localhost/fitnessWeb', FALSE); ?>
+<?php require_once (__DIR__.'/views/header.php');?>
 <section id="slider">
 	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">	 
 		<!-- Controls -->
@@ -50,12 +51,9 @@
 	</div>	
 </section>	
 <section>
+	<section class="center">
 	<div class="layout">
 		<div class="project-caption"><i class="fa fa-th-large fa-2x icon-color"></i><span class="project-caption-text">LAST PROJECT</span></div>
-	</div>
-</section>
-<section>
-	<div class="layout">
 		<div class="project-item">		
 		<div class="item-hover"><span class="glyphicon glyphicon-zoom-in item-hide"></span></div>		
 			<img src="<?php echo(substr(dirname($_SERVER['REQUEST_URI']).'img/project-item/project-item2.png',1)); ?>" alt="..." />
@@ -68,9 +66,10 @@
 	</div>
 	<div class="div-separator"></div>
 	<div class="layout">
+		<div class="project-caption"><i class="fa fa-th-large fa-2x icon-color"></i><span class="project-caption-text">LAST PROJECT</span></div>
 		<div class="project-item">
 			<div class="item-hover"><span class="glyphicon glyphicon-zoom-in item-hide"></span></div>
-			<img src="<?php echo(substr(dirname($_SERVER['REQUEST_URI']).'img/project-item/project-item3.png',1)); ?>" alt="..." />
+			<img src="<?php echo __ROOT_PATH__.'/img/project-item/project-item3.png'; ?>" alt="..." />
 			<hr />
 			<div class="project-title">
 				<h4>Workout Healthy</h4>
@@ -80,6 +79,7 @@
 	</div>
 	<div class="div-separator"></div>
 	<div class="layout">
+		<div class="project-caption"><i class="fa fa-th-large fa-2x icon-color"></i><span class="project-caption-text">LAST PROJECT</span></div>
 		<div class="project-item">
 			<div class="item-hover"><span class="glyphicon glyphicon-zoom-in item-hide"></span></div>
 			<img src="<?php echo(substr(dirname($_SERVER['REQUEST_URI']).'img/project-item/project-item4.png',1)); ?>" alt="..." />
@@ -90,6 +90,7 @@
 			</div>
 		</div>
 	</div>
+	<section>
 </section>
 <section>
 	<div class="layout">
@@ -123,10 +124,14 @@
 			<h5>Subscribe to our e-mail newsletter to 
 				receive updates.
 			</h5>
-			<p><input type="text" name="subscribe" id="txbSubscribe"
-					placeholder="Enter your Email" class="my-txb-email" />
-				<button class="my-button-submit">Submit</button></p>
+			<div style="margin: 20px;">
+				<form action="" method="">
+					<input type="text" name="subscribe" id="txbSubscribe"
+							placeholder="Enter your Email" class="my-txb-email" />
+					<button class="my-button-submit">Submit</button>
+				</form>
+			</div>
 		</div>
 	</div>
 </section>
-<?php require_once (dirname($_SERVER['REQUEST_URI']).'views/footer.php');?>
+<?php require_once (__DIR__.'/views/footer.php');?>

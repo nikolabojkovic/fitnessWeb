@@ -1,19 +1,21 @@
+<?php session_start(); ?>
+<?php require_once dirname(__FILE__) ."/../models/connection.php"; ?>
 <!DOCTYPE html>
 <html lang="en">
 	<head>
 		<title>INDEX</title>
 		<meta charset="utf-8">
-		<link href="<?php echo(substr(dirname($_SERVER['REQUEST_URI']).'css/reset.css',1)); ?>" rel="stylesheet" type="text/css">
-		<link href="<?php echo(substr(dirname($_SERVER['REQUEST_URI']).'bootstrap-3.1.1-dist/css/bootstrap.min.css',1)); ?>" rel="stylesheet">
-		<link href="<?php echo(substr(dirname($_SERVER['REQUEST_URI']).'font-awesome-4.3.0/css/font-awesome.min.css',1)); ?>" rel="stylesheet">
-		<link href="<?php echo(substr(dirname($_SERVER['REQUEST_URI']).'css/header.css',1)); ?>" rel="stylesheet" type="text/css">
-		<link href="<?php echo(substr(dirname($_SERVER['REQUEST_URI']).'css/main.css',1)); ?>" rel="stylesheet" type="text/css">
-		<link href="<?php echo(substr(dirname($_SERVER['REQUEST_URI']).'img/fiveicon.png',1)); ?>"  rel="icon" type="image/png" >
-		<link rel="stylesheet" href="<?php echo(substr(dirname($_SERVER['REQUEST_URI']).'css/mobile.css',1)); ?>" />
-		<script src="<?php echo(substr(dirname($_SERVER['REQUEST_URI']).'js/jquery-1.11.1.min.js',1)); ?>"></script>	
-		<script src="<?php echo(substr(dirname($_SERVER['REQUEST_URI']).'js/glm-ajax.js',1)); ?>"></script>	
-		<script src="<?php echo(substr(dirname($_SERVER['REQUEST_URI']).'js/main.js',1)); ?>"></script>
-		<script src="<?php echo(substr(dirname($_SERVER['REQUEST_URI']).'bootstrap-3.1.1-dist/js/bootstrap.min.js',1)); ?>"></script>		
+		<link href="<?php echo(__ROOT_PATH__.'/css/reset.css'); ?>" rel="stylesheet" type="text/css">
+		<link href="<?php echo(__ROOT_PATH__.'/bootstrap-3.1.1-dist/css/bootstrap.min.css'); ?>" rel="stylesheet">
+		<link href="<?php echo(__ROOT_PATH__.'/font-awesome-4.3.0/css/font-awesome.min.css'); ?>" rel="stylesheet">
+		<link href="<?php echo(__ROOT_PATH__.'/css/header.css'); ?>" rel="stylesheet" type="text/css">
+		<link href="<?php echo(__ROOT_PATH__.'/css/main.css'); ?>" rel="stylesheet" type="text/css">
+		<link href="<?php echo(__ROOT_PATH__.'/img/fiveicon.png'); ?>"  rel="icon" type="image/png" >
+		<link rel="stylesheet" href="<?php echo(__ROOT_PATH__.'/css/mobile.css'); ?>" />
+		<script src="<?php echo(__ROOT_PATH__.'/js/jquery-1.11.1.min.js'); ?>"></script>	
+		<script src="<?php echo(__ROOT_PATH__.'/js/glm-ajax.js'); ?>"></script>	
+		<script src="<?php echo(__ROOT_PATH__.'/js/main.js'); ?>"></script>
+		<script src="<?php echo(__ROOT_PATH__.'/bootstrap-3.1.1-dist/js/bootstrap.min.js'); ?>"></script>		
 	</head>
 	<body>
 		<article>
@@ -24,8 +26,8 @@
 						<a href="#"><li>SUPPORT</li></a>
 						<a href="#"><li>CONTACT</li></a>
 					</ul> 
-					<a class="navbar-brand" href="<?php echo(substr(dirname($_SERVER['REQUEST_URI']),1)); ?>">
-						<img id="logo" alt="Fitness Logo" src="<?php echo(substr(dirname($_SERVER['REQUEST_URI']).'img/header/logo.png',1)); ?>" />
+					<a class="navbar-brand" href="<?php echo(__ROOT_PATH__); ?>">
+						<img id="logo" alt="Fitness Logo" src="<?php echo(__ROOT_PATH__.'/img/header/logo.png'); ?>" />
 					</a> -->
 	  <nav class="navbar navbar-inverse">
         <div class="container-fluid">
@@ -45,9 +47,9 @@
             <button type="submit" class="my-button-submit">Sign in</button>
           </form>
             <ul class="nav navbar-nav">			
-              <li class="active"><a href="#">FEATURES</a></li>
+              <li class="active"><a href="<?php echo(__ROOT_PATH__); ?>">HOME</a></li>
+              <li><a href="<?php echo(__ROOT_PATH__.'views/contact.php'); ?>">CONTACT</a></li>
               <li><a href="#">BLOG</a></li>
-              <li><a href="#">CONTACT</a></li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">SUPPORT <span class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">

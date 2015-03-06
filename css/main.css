@@ -10,9 +10,16 @@ h1,h2,h3,h4,h5,h6{
 article{
 	margin: 0% 13%;
 }
+textarea{
+	resize: none;
+}
+section {
+	//text-align: center;
+}
 a:hover{
 	text-decoration: none;
 }
+/********* main page and footer************/
 .carousel-indicators{
 	position: relative;
 	bottom: 0px;
@@ -73,6 +80,7 @@ a:hover{
 }
 .layout{
 	display: inline-table;
+	text-align:left;
 }
 .project-title{
 	height: 79px;
@@ -215,37 +223,66 @@ label{
 	background: linear-gradient(18deg, rgb(0, 146, 188) 36%, rgb(68, 146, 188) 55%);
 }
 .my-txb-email{
-	padding: 9px 20px;
+	padding: 10px 20px;
 	width: 165px;
 	margin-right: 0px;
+	background-color: #343434;
+	border: none;
 }
 .my-txb-email:focus{
-	box-shadow: 0.3px 0.3px 4px 1.5px #1292bc;
+	//box-shadow: 0.3px 0.3px 4px 1.5px #1292bc;
 	animation: color-txb 300ms linear;
+	background-color: white;
+}
+::-webkit-input-placeholder {
+   color: #c4c4c4;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #c4c4c4;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #c4c4c4;  
+}
+
+:-ms-input-placeholder {  
+   color: #c4c4c4;  
 }
 @keyframes color-txb {
-	from {box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);}
-    to { box-shadow: 0.3px 0.3px 4px 1.5px #1292bc;}
+	from {background-color: #343434;}
+	to{background-color: white;}
+	//from {box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);}
+    //to { box-shadow: 0.3px 0.3px 4px 1.5px #1292bc;}
 }
 @-webkit-keyframes color-txb {
-	from {box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);}
-    to {box-shadow: 0.3px 0.3px 4px 1.5px #1292bc;}
+	from {background-color: #343434;}
+	to{background-color: white;}
+	//from {box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);}
+    //to {box-shadow: 0.3px 0.3px 4px 1.5px #1292bc;}
 }
 .carousel-caption{
-	background-color: rgba(0,0,0,0.8);
+	//background-color: rgba(0,0,0,0.8);
 	width: 100%;
 	left: 0%;
 	padding:0px;
 }
 .carousel-caption h1, h3{
 	margin: 0px;
-	color: #909090;
+	//color: #909090;
+	//color:white;
 }
 .carousel-caption  h1{
 	padding: 5px 0px ;
 }
 .carousel-caption  h3{
 	padding-bottom: 5px;
+}
+.item > img{
+	width: 100%;
+}
+.center{
+	text-align:center;
 }
 /* animation */
 .spin {
@@ -274,3 +311,47 @@ label{
     transform: perspective(200px) rotateY(405deg);
   }
 }
+section hr{
+	clear: both;
+}
+/************* contact page *****************/
+.contact-image{
+	//height: 27%;
+	width:100%;
+}
+.contact-form{
+	height: 467px;
+	//width: 68%;
+	background-color: rgba(0,0,0,0.4);
+	//float: left;
+	//margin-bottom: 18px;
+}
+#contact-content{
+	//padding: 18px 0px;
+	//width: 68%;
+}
+#contact-content h1{
+	padding: 45px 25px 35px ;
+}
+#contact-caption {
+	position: relative;
+}
+#contact-caption  h1{
+	position: absolute;
+	bottom: 20px;
+	left: 20px;
+	font-size: 60px;
+	font-weight: 900;
+}
+.contact-datails{
+	position: relative;
+	display:inline-table;
+}
+#contact-form input , #contact-form button, #contact-form textarea{
+	display: block;
+	width: 85%;
+	margin: 10px 20px;
+}
+
+
+
