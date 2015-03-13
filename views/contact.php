@@ -4,7 +4,6 @@
 	<img src="<?php echo __ROOT_PATH__.'/img/contact/contact.png';?>" alt="Contact Image..." class="contact-image" />
 </section>
 <section id="contact-content">
-	<div class="layout" style="width: 68%;">
 		<div class="contact-form">
 			<h1>SIMPLE CONTACT FORM</h1>
 			<form action="" method="" id="contact-form">
@@ -16,12 +15,11 @@
 					<button class="my-button-submit">Submit</button>
 				</form>
 		</div>
-	</div>
-	<div class="div-separator"></div>
-	<div class="layout" style="float: right; margin: 10px 0px;">
+</section>
+<section class="side-bar">
 		<div class="project-caption"><i class="fa fa-map-marker fa-2x icon-color"></i><span class="project-caption-text">GOOGLE MAP</span></div>
 		<div>
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3591.0933682567847!2d-80.30389330000004!3d25.833468500000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9ba3f4f86eded%3A0x18504504c26b39de!2s1500+Miami+Springs+Ave%2C+Miami%2C+FL+33166%2C+USA!5e0!3m2!1sen!2srs!4v1425593926233" width="290" height="175" frameborder="0" style="border:0"></iframe>
+			<iframe class="contact-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3591.0933682567847!2d-80.30389330000004!3d25.833468500000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9ba3f4f86eded%3A0x18504504c26b39de!2s1500+Miami+Springs+Ave%2C+Miami%2C+FL+33166%2C+USA!5e0!3m2!1sen!2srs!4v1425593926233" width="290" height="175" frameborder="0" style="border:0"></iframe>
 		</div>
 		<br />
 		<div class="pre-footer">
@@ -38,6 +36,5 @@
 					<a href="#"><i class="fa fa-twitter-square fa-2x icon-color-tweeter "></i></a>
 			</div>
 		</div>
-	</div>
 </section>
 <?php require_once ('/footer.php');?>

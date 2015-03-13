@@ -39,9 +39,13 @@ nav ul a:hover, nav ul a:active,nav ul a:focus{
 #logo{
 	vertical-align: middle;
 } 
-.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+.navbar-inverse .navbar-nav > .active > a {
     color: #FFF;
-    //background-color: #1292bc;
+    background-color: #037fa7;
+}
+.navbar-inverse .navbar-nav > li > a:hover{
+	color: #FFF;
+    background-color: #141414;
 }
 .navbar-toggle{
 	display: none;

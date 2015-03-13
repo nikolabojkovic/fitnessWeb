@@ -14,7 +14,7 @@ textarea{
 	resize: none;
 }
 section {
-	//text-align: center;
+	text-align: center;
 }
 a:hover{
 	text-decoration: none;
@@ -72,6 +72,9 @@ a:hover{
 .icon-color-pinterest:hover{
 	color: #cb2027;
 }
+.icon-color{
+	color: rgba( 46,46,46,0.8);
+}
 .project-item{
 	width: 290px;
 	height: 290px;
@@ -81,6 +84,18 @@ a:hover{
 .layout{
 	display: inline-table;
 	text-align:left;
+}
+.our-team-layout{
+	display: inline-table;
+	text-align:left;
+	width: 300px;
+	border-bottom: 5px solid rgba(36,36,36,0.8);
+}
+.our-team-layout:hover{
+	border-bottom: 5px solid rgba(255,255,255,1);
+}
+.pre-footer-container{
+	clear: both;
 }
 .project-title{
 	height: 79px;
@@ -127,9 +142,18 @@ a:hover{
 	margin-bottom: 15px;
 	//display:inline-block;
 	width: 290px;
+	text-align:left;
 }
 .project-caption-text{
 	margin-left: 8px;
+}
+.last-tweets{
+	display: inline-block;
+	height: 215px;
+	width: 290px;
+	font-size: 11px;
+	margin-top: 3px;
+	text-align: left;
 }
 .pre-footer{
 	background-color: rgba(16,16,16,0.8);
@@ -138,9 +162,10 @@ a:hover{
 	width: 290px;
 	font-size: 11px;
 	margin-top: 3px;
+	text-align: left;
 }
 .pre-footer h4, h5{
-	padding: 20px 20px 0px;
+	padding: 40px 20px 0px;
 	margin: 0px;
 }
 .pre-footer p{
@@ -224,7 +249,7 @@ label{
 }
 .my-txb-email{
 	padding: 10px 20px;
-	width: 165px;
+	width: 160px;
 	margin-right: 0px;
 	background-color: #343434;
 	border: none;
@@ -284,6 +309,41 @@ label{
 .center{
 	text-align:center;
 }
+.pagination a{
+	color: #909090;
+}
+.pagination a:hover{
+	color: white;
+}
+.pagination{
+	cursor: default;
+}
+.pagination-container a{
+	margin-left:20px;
+	color: #909090;
+}
+.pagination-container a:hover{
+	color: white;
+}
+.photos-image{
+	display:inline;
+}
+.photos-image-container{
+	margin-left: 20px;
+}
+legend{
+	font-size: 30px;
+	font-weight: 500;
+	border:none;
+	margin-left: 20px;
+	color: #d1d1d1;
+}
+.last-tweets .project-item , .last-tweets .project-item  img{
+	width: 100%;
+}
+b {
+	font-weight: bolder;
+}
 /* animation */
 .spin {
   cursor: pointer;
@@ -319,16 +379,23 @@ section hr{
 	//height: 27%;
 	width:100%;
 }
+.contact-map{
+	width:100%;
+}
 .contact-form{
-	height: 467px;
-	//width: 68%;
-	background-color: rgba(0,0,0,0.4);
+	//height: 467px;
+	//width: 100%;
+	padding-bottom: 6px;
 	//float: left;
 	//margin-bottom: 18px;
 }
 #contact-content{
 	//padding: 18px 0px;
-	//width: 68%;
+	width: 66.29%;
+	display: inline-block;
+	background-color: rgba(0,0,0,0.4);
+	margin-top: 20px;
+	text-align: left;
 }
 #contact-content h1{
 	padding: 45px 25px 35px ;
@@ -336,7 +403,7 @@ section hr{
 #contact-caption {
 	position: relative;
 }
-#contact-caption  h1{
+#contact-caption h1{
 	position: absolute;
 	bottom: 20px;
 	left: 20px;
@@ -349,9 +416,141 @@ section hr{
 }
 #contact-form input , #contact-form button, #contact-form textarea{
 	display: block;
-	width: 85%;
+	width: 90%;
 	margin: 10px 20px;
 }
+.side-bar{
+	float: right;
+	margin: 20px 0px;
+	width: 30%;
+	text-align: right;
+	display: inline-block;
+}
+.side-bar .pre-footer, .side-bar .last-tweets{
+	min-height: 215px;
+	height: auto;
+	padding-bottom: 10px;
+	width: 100%;
+	max-width: 290px;
+}
+.side-bar .project-caption{
+	width: 100%;
+	text-align: left;
+}
+/******************** 404 page ****************/
+#not-found-caption{
+	position: relative;
+		margin-top: 50px;
 
-
-
+}
+#not-found-caption h1{
+	position: absolute;
+	bottom: 25%;
+	margin-left: 12%;
+	font-size: 60px;
+	font-weight: 900;
+}
+#not-found-caption a{
+	position: absolute;
+	bottom: 21%;
+}
+/*************** blog-landing page **********/
+.blog-landing-content{
+	text-align: left;
+	display: inline-block;
+}
+.blog-landing-content h1, .blog-landing-content h3{
+	margin: 20px;
+	padding: 0px !important;
+	text-transform: uppercase;
+}
+.blog-landing-content h3{
+	color: #909090;
+}
+.blog-landing-content h5{
+	color: #909090;
+	padding: 0px;
+	margin: 12px 0px;
+	font-size: 16px;
+}
+.blog-landing-content div, .blog-landing-content img {
+	margin: 10px 20px;
+	padding: 0px !important;
+	display: inline-block;
+}
+.blog-image{
+	width: 90%;
+}
+.blog-landing-content .project-caption{
+	width: auto;
+}
+#contact-content hr{
+	margin: 20px 20px;
+}
+/************* blog page ***********/
+.comment{
+	margin-left: 20px;
+	width: 90%;
+	//background-color: #909090;
+	color: #f0f0f0;
+	padding: 22px 32px;
+	background-image: url("../img/blog/comment.png");
+	 background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.comment-text{
+	margin-bottom: 30px;
+}
+.comment-details{
+	margin: 5px 55px 35px;
+}
+/************** about page **************/
+.our-team-img{
+	//width: 30%;
+	margin-top: 5px;
+}
+.our-team-layout{
+	position:relative;
+}
+.our-team-layout h3 {
+	position: absolute;
+	left: 25px;
+	bottom: 45px;
+}
+.our-team-layout h6{
+	position: absolute;
+	left: 25px;
+	bottom: 20px;
+}
+/********** faq page *************/
+.faq{
+	padding: 35px 25px;
+}
+.toggle{
+	padding: 15px 10px;
+	background-color: rgba(25,25,25,0.8);
+	margin: 5px 0px;
+	cursor: pointer;
+}
+.toggle h3{
+	color: #d1d1d1;
+}
+.mark{
+	margin: 0px 10px;
+	float:left;
+	font-size: 24px;
+	color: #d1d1d1;
+}
+.toggle .mark{
+	position:relative;
+	top: -5px;
+}
+.toggle-text{
+	text-align: left;
+	margin-left: 70px;
+	color: white;
+}
+.toggle-item{
+	margin: 0px 25px;
+	padding: 25px 20px 30px;
+}

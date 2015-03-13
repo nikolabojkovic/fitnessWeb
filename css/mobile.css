@@ -9,7 +9,7 @@
 		width:100%;
 	}
 	article{
-	 margin:0px;
+		margin:0px;
 	}
 	.project-item, .pre-footer, .project-caption{
 	 margin-left: 10%;
@@ -21,5 +21,23 @@
 	.footer-text, .footer-icons{
 		margin-left: 2%;
 		margin-right: 2%;
+	}
+}
+@media (max-width: 800px) {
+	#contact-caption h1 {
+		display:none;
+	}
+	#contact-content{
+		width: 100%;
+	}
+	#contact-form input , #contact-form button, #contact-form textarea{
+		width: 90%;
+	}
+	.side-bar{
+		float: none;
+		width: 100%;
+	}
+	.contact-map{
+		width: 100%;
 	}
 }

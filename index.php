@@ -51,7 +51,6 @@
 	</div>	
 </section>	
 <section>
-	<section class="center">
 	<div class="layout">
 		<div class="project-caption"><i class="fa fa-th-large fa-2x icon-color"></i><span class="project-caption-text">LAST PROJECT</span></div>
 		<div class="project-item">		
@@ -90,7 +89,6 @@
 			</div>
 		</div>
 	</div>
-	<section>
 </section>
 <section>
 	<div class="layout">
