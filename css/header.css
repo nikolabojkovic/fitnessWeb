@@ -41,7 +41,7 @@ nav ul a:hover, nav ul a:active,nav ul a:focus{
 } 
 .navbar-inverse .navbar-nav > .active > a {
     color: #FFF;
-    background-color: #037fa7;
+    background-color: black;
 }
 .navbar-inverse .navbar-nav > li > a:hover{
 	color: #FFF;
@@ -56,4 +56,30 @@ nav ul a:hover, nav ul a:active,nav ul a:focus{
 .navbar, .navbar-inverse{
 	margin-top: 10px;
 	margin-bottom: 5px;
+}
+.nav > li > a {
+	//top: 5px;
+}
+.navbar-nav{
+	top: 5px;
+	position: relative;	
+}
+.dropdown-menu{
+	background-color: #1c1c1c;
+}
+.dropdown-menu .divider{
+	 background-color: #037fa7;
+}
+.dropdown-menu > li > a{
+	color: #909090;
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-menu > li > a:active{
+	background-color: #037fa7;
+	color: white;
+}
+.dropdown-header {
+	color: #262626;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+	background-color: #037fa7;
 }

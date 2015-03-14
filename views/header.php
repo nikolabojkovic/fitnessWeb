@@ -59,8 +59,9 @@
                   <li><a href="<?php echo __ROOT_PATH__.'views/faq.php'; ?>">FAQ</a></li>
                   <li class="divider"></li>
                   <li class="dropdown-header">Nav header</li>
-                  <li><a href="#">Separated link</a></li>
-                  <li><a href="#">One more separated link</a></li>
+                  <li><a href="<?php echo __ROOT_PATH__.'views/ourTeam.php'; ?>">Our Team</a></li>
+                  <li><a href="<?php echo __ROOT_PATH__.'views/portfolio.php'; ?>">Our Portfolio</a></li>
+				  <li><a href="<?php echo __ROOT_PATH__.'views/services.php'; ?>">Services</a></li>
                 </ul>
               </li>
             </ul>
